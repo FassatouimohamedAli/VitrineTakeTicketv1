@@ -1,0 +1,233 @@
+<!-- index.html - Page d'accueil -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TakeTicket - Application File d'Attente en Ligne | Réservation Ticket Digital</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="TakeTicket - Prenez votre ticket de file d'attente en ligne. Évitez l'attente et suivez votre position en temps réel. Application gratuite disponible sur iOS et Android.">
+    <meta name="keywords"
+        content="file d'attente en ligne, ticket virtuel, réservation en ligne, gestion file d'attente, application mobile, prise de rendez-vous, attente digitale, queue management">
+    <meta name="author" content="TakeTicket">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.taketicket.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.taketicket.com/">
+    <meta property="og:title" content="TakeTicket - File d'Attente en Ligne | Application Mobile">
+    <meta property="og:description"
+        content="Prenez votre ticket de file d'attente en ligne et suivez votre position en temps réel. Gagnez du temps avec TakeTicket !">
+    <meta property="og:image" content="https://www.taketicket.com/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.taketicket.com/">
+    <meta property="twitter:title" content="TakeTicket - File d'Attente en Ligne">
+    <meta property="twitter:description"
+        content="Prenez votre ticket de file d'attente en ligne et suivez votre position en temps réel.">
+    <meta property="twitter:image" content="https://www.taketicket.com/images/twitter-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "TakeTicket",
+      "description": "Application mobile pour prendre des tickets de file d'attente en ligne",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "iOS, Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2547"
+      }
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">🎫 TakeTicket</span>
+                </a>
+                <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="features.html">Fonctionnalités</a></li>
+                    <li><a href="about.html">À Propos</a></li> <!-- NOUVEAU -->
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#download" class="btn-nav">Télécharger</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Fini l'attente interminable !</h1>
+            <p class="hero-subtitle">
+                Prenez votre ticket de file d'attente en ligne et suivez votre position en temps réel
+            </p>
+            <div class="download-buttons" id="download">
+                <a href="#" class="btn btn-apple">
+                    <span class="icon">🍎</span>
+                    <span>App Store</span>
+                </a>
+                <a href="#" class="btn btn-google">
+                    <span class="icon">📱</span>
+                    <span>Google Play</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Utilisateurs actifs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Établissements partenaires</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8/5</div>
+                    <div class="stat-label">Note moyenne</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Preview -->
+    <section class="features-preview">
+        <div class="container">
+            <h2>Pourquoi choisir TakeTicket ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>Gagnez du temps</h3>
+                    <p>Réservez votre place à distance et arrivez au bon moment</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>Suivi en temps réel</h3>
+                    <p>Suivez votre position et recevez des notifications</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3>Multi-établissements</h3>
+                    <p>Des centaines d'établissements partenaires disponibles</p>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="features.html" class="btn-secondary">Découvrir toutes les fonctionnalités →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Comment ça marche ?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Téléchargez</h3>
+                    <p>Installez l'app gratuitement</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Choisissez</h3>
+                    <p>Sélectionnez votre lieu</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Réservez</h3>
+                    <p>Prenez votre ticket en un clic</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Suivez</h3>
+                    <p>Arrivez au bon moment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à gagner du temps ?</h2>
+            <p>Rejoignez des milliers d'utilisateurs satisfaits</p>
+            <div class="download-buttons">
+                <a href="#" class="btn btn-apple">
+                    <span class="icon">🍎</span>
+                    <span>App Store</span>
+                </a>
+                <a href="#" class="btn btn-google">
+                    <span class="icon">📱</span>
+                    <span>Google Play</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🎫 TakeTicket</h4>
+                    <p>Votre solution de file d'attente digitale</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="features.html">Fonctionnalités</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:contact@taketicket.com">contact@taketicket.com</a></p>
+                    <p>Tél: <a href="tel:+21612345678">+216 12 345 678</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TakeTicket. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

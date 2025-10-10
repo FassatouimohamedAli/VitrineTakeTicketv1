@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact TakeTicket - Support et Assistance</title>
+
+    <meta name="description"
+        content="Contactez l'équipe TakeTicket pour toute question ou assistance. Notre support est disponible pour vous aider avec l'application et répondre à vos demandes.">
+    <meta name="keywords" content="contact taketicket, support client, assistance, questions, aide application">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.taketicket.com/contact.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact TakeTicket - Support et Assistance">
+    <meta property="og:description"
+        content="Contactez notre équipe de support pour toute question concernant l'application TakeTicket.">
+    <meta property="og:url" content="https://www.taketicket.com/contact.html">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact TakeTicket",
+      "description": "Page de contact pour l'application TakeTicket",
+      "url": "https://www.taketicket.com/contact.html"
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">🎫 TakeTicket</span>
+                </a>
+                <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="features.html">Fonctionnalités</a></li>
+                    <li><a href="about.html">À Propos</a></li> <!-- NOUVEAU -->
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="index.html#download" class="btn-nav">Télécharger</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Notre équipe est là pour répondre à toutes vos questions</p>
+        </div>
+    </section>
+
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Informations de contact</h2>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:contact@taketicket.com">contact@taketicket.com</a></p>
+                            <p class="contact-subtext">Réponse sous 24h</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:+21612345678">+216 12 345 678</a></p>
+                            <p class="contact-subtext">Lun-Ven: 9h-18h</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>123 Avenue de la Liberté</p>
+                            <p>Tunis, 1002</p>
+                            <p class="contact-subtext">Siège social</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook">📘</a>
+                            <a href="#" aria-label="Twitter">🐦</a>
+                            <a href="#" aria-label="Instagram">📷</a>
+                            <a href="#" aria-label="LinkedIn">💼</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Envoyez-nous un message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div id="formMessage" class="form-message"></div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Prénom *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Nom *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="support">Support technique</option>
+                                <option value="partnership">Partenariat</option>
+                                <option value="feedback">Retour d'expérience</option>
+                                <option value="bug">Signaler un problème</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required
+                                placeholder="Décrivez votre demande en détail..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à simplifier vos attentes ?</h2>
+            <p>Téléchargez TakeTicket maintenant et gagnez du temps au quotidien</p>
+            <div class="download-buttons">
+                <a href="#" class="btn btn-apple">
+                    <span class="icon">🍎</span>
+                    <span>App Store</span>
+                </a>
+                <a href="#" class="btn btn-google">
+                    <span class="icon">📱</span>
+                    <span>Google Play</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🎫 TakeTicket</h4>
+                    <p>Votre solution de file d'attente digitale</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                        <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="features.html">Fonctionnalités</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:contact@taketicket.com">contact@taketicket.com</a></p>
+                    <p>Tél: <a href="tel:+21612345678">+216 12 345 678</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TakeTicket. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Fonction pour le menu mobile
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Gestion du formulaire de contact
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formMessage = document.getElementById('formMessage');
+            formMessage.style.display = 'block';
+            formMessage.textContent = 'Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.';
+            formMessage.className = 'form-message success';
+
+            // Réinitialiser le formulaire
+            this.reset();
+
+            // Masquer le message après 5 secondes
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>
