@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://www.taketicket.com/sitemap.xml
+Sitemap: https://taketicket.netlify.app/sitemap.xml

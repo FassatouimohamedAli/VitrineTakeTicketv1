@@ -10,14 +10,14 @@
         content="Trouvez toutes les réponses à vos questions sur TakeTicket : utilisation, fonctionnalités, support et bien plus dans notre FAQ complète.">
     <meta name="keywords" content="faq taketicket, questions fréquentes, aide application, support, mode d'emploi">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.taketicket.com/faq.html">
+    <link rel="canonical" href="https://taketicket.netlify.app/faq.html">
 
     <!-- Open Graph -->
     <meta property="og:title" content="FAQ TakeTicket - Questions Fréquentes sur l'Application">
     <meta property="og:description"
         content="Toutes les réponses à vos questions sur l'utilisation de TakeTicket dans notre FAQ détaillée.">
-    <meta property="og:url" content="https://www.taketicket.com/faq.html">
-
+    <meta property="og:url" content="https://taketicket.netlify.app/faq.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="nav-content">
                 <a href="index.html" class="logo-link">
-                    <span class="logo-text">🎫 TakeTicket</span>
+                    <span class="logo-text">TakeTicket</span>
                 </a>
                 <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
                 <ul class="nav-menu" id="navMenu">
@@ -83,14 +83,26 @@
             </div>
 
             <div class="quick-links">
-                <a href="#utilisation" class="quick-link">Utilisation</a>
-                <a href="#compte" class="quick-link">Compte</a>
-                <a href="#technique" class="quick-link">Problèmes techniques</a>
-                <a href="#securite" class="quick-link">Sécurité</a>
+                <a href="#utilisation" class="quick-link">
+                    <i class="fas fa-mobile-alt"></i>
+                    Utilisation
+                </a>
+                <a href="#compte" class="quick-link">
+                    <i class="fas fa-user"></i>
+                    Compte
+                </a>
+                <a href="#technique" class="quick-link">
+                    <i class="fas fa-tools"></i>
+                    Problèmes techniques
+                </a>
+                <a href="#securite" class="quick-link">
+                    <i class="fas fa-shield-alt"></i>
+                    Sécurité
+                </a>
             </div>
 
             <div class="faq-category" id="utilisation">
-                <h2>📱 Utilisation de l'Application</h2>
+                <h2><i class="fas fa-mobile-alt"></i> Utilisation de l'Application</h2>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -130,7 +142,7 @@
             </div>
 
             <div class="faq-category" id="compte">
-                <h2>👤 Compte et Profil</h2>
+                <h2><i class="fas fa-user"></i> Compte et Profil</h2>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -168,7 +180,7 @@
             </div>
 
             <div class="faq-category" id="technique">
-                <h2>🔧 Problèmes Techniques</h2>
+                <h2><i class="fas fa-tools"></i> Problèmes Techniques</h2>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -206,7 +218,7 @@
             </div>
 
             <div class="faq-category" id="securite">
-                <h2>🔒 Sécurité et Confidentialité</h2>
+                <h2><i class="fas fa-shield-alt"></i> Sécurité et Confidentialité</h2>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -246,11 +258,15 @@
             <p>Téléchargez TakeTicket et dites adieu aux files d'attente</p>
             <div class="download-buttons">
                 <a href="#" class="btn btn-apple">
-                    <span class="icon">🍎</span>
+                    <span class="icon">
+                        <i class="fab fa-apple"></i>
+                    </span>
                     <span>App Store</span>
                 </a>
                 <a href="#" class="btn btn-google">
-                    <span class="icon">📱</span>
+                    <span class="icon">
+                        <i class="fab fa-google-play"></i>
+                    </span>
                     <span>Google Play</span>
                 </a>
             </div>
@@ -261,23 +277,24 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>🎫 TakeTicket</h4>
+                    <h4><i class="fas fa-ticket-alt"></i> TakeTicket</h4>
                     <p>Votre solution de file d'attente digitale</p>
                 </div>
                 <div class="footer-section">
                     <h4>Navigation</h4>
                     <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="features.html">Fonctionnalités</a></li>
-                        <li><a href="about.html">À Propos</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                        <li><a href="features.html"><i class="fas fa-star"></i> Fonctionnalités</a></li>
+                        <li><a href="about.html"><i class="fas fa-info-circle"></i> À Propos</a></li>
+                        <li><a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Contact</h4>
-                    <p>Email: <a href="mailto:contact@taketicket.com">contact@taketicket.com</a></p>
-                    <p>Tél: <a href="tel:+21612345678">+216 12 345 678</a></p>
+                    <p><i class="fas fa-envelope"></i> Email: <a
+                            href="mailto:contact@taketicket.com">contact@taketicket.com</a></p>
+                    <p><i class="fas fa-phone"></i> Tél: <a href="tel:+21612345678">+216 12 345 678</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
