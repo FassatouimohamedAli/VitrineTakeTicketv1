@@ -42,7 +42,7 @@ body {
 .logo-text {
     font-size: 1.8em;
     font-weight: bold;
-    color: #FF6B6B;
+    color: #a34d4d;
 }
 
 .mobile-menu-btn {
@@ -74,7 +74,7 @@ body {
 }
 
 .btn-nav {
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+    background: linear-gradient(135deg, #a34d4d 0%, #7ae6de 100%);
     color: white !important;
     padding: 10px 25px;
     border-radius: 25px;
@@ -82,7 +82,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+    background: linear-gradient(135deg, #a34d4d 0%, #7ae6de 100%);
     color: white;
     padding: 80px 20px;
     text-align: center;
@@ -203,7 +203,7 @@ body {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 60px;
-    color: #FF6B6B;
+    color: #a34d4d;
 }
 
 .features-grid {
@@ -233,7 +233,7 @@ body {
 .feature-card h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #4ECDC4;
+    color: #42bab2;
 }
 
 .feature-card p {
@@ -250,23 +250,23 @@ body {
     display: inline-block;
     padding: 15px 40px;
     background: white;
-    color: #FF6B6B;
+    color: #a34d4d;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
-    border: 2px solid #FF6B6B;
+    border: 2px solid #a34d4d;
     transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
-    background: #FF6B6B;
+    background: #a34d4d;
     color: white;
 }
 
 /* How It Works */
 .how-it-works {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+    background: linear-gradient(135deg, #a34d4d 0%, #4ECDC4 100%);
     color: white;
 }
 
@@ -293,7 +293,7 @@ body {
     width: 60px;
     height: 60px;
     background: white;
-    color: #FF6B6B;
+    color: #a34d4d;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -329,7 +329,7 @@ body {
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+    background: linear-gradient(135deg, #a34d4d 0%, #4ab7af 100%);
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -372,7 +372,7 @@ body {
 .feature-detail-card h2 {
     font-size: 1.8em;
     margin-bottom: 15px;
-    color: #FF6B6B;
+    color: #a34d4d;
 }
 
 .feature-detail-card p {
@@ -409,7 +409,7 @@ body {
 .contact-info h2 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #FF6B6B;
+    color: #a34d4d;
 }
 
 .contact-item {
@@ -454,6 +454,7 @@ body {
 
 .social-links {
     margin-top: 40px;
+
 }
 
 .social-links h3 {
@@ -487,7 +488,7 @@ body {
 .contact-form-container h2 {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #FF6B6B;
+    color: #8c3d3d;
 }
 
 .form-group {
